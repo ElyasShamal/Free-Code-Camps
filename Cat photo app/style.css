@@ -1,0 +1,45 @@
+
+
+
+.container{
+ 
+  border:3px solid black;
+  height: 730px;
+  width:600px;
+  display: block;
+  text-align: center;
+
+  margin-left: 500px;
+  
+
+  
+
+}
+
+
+.red-text{
+    color: red;
+}
+
+h2{
+    font-family: lobster;
+    font-size: 36px;
+    text-align: center;
+}
+
+.image{
+    width: 200px;
+    border-radius: 50%;
+    border: 10px solid green;
+   
+}
+
+
+.silver-background{
+    background-color: silver;
+    width: 300px;
+    padding: 10px;
+   margin-left: 150px;
+    
+ 
+}
