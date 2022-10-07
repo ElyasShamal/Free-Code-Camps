@@ -1,0 +1,490 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: sans-serif;
+    background-color: #eee;
+}
+
+
+#header{
+    position: fixed;
+    top: 0;
+    min-height: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #eee;
+}
+
+.logo{
+    width: 60vw;
+}
+
+#header-img{
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+nav{
+    font-weight: 500;
+}
+
+
+nav ul{
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav li{
+    list-style-type: none ;
+
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    padding-bottom: 5px;
+}
+
+a:hover{
+    color: #f1c40f;
+    border-bottom: 2px solid black;
+    
+    
+}
+
+
+.menu-btn{
+    display: none;
+}
+
+
+
+.container{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+#hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    margin-top: 80px;
+
+}
+
+h2{
+    display: block;
+    font-size: 1.5em;
+    
+
+}
+
+
+#hero input[type="email"]{
+    width: 100%;
+    max-width: 300px;
+    margin-top: 10px;
+    padding: 5px;
+    color: black;
+    
+
+}
+
+#hero input[type="submit"]{
+    width: 100%;
+    max-width: 130px;
+    margin-top: 10px;
+    background-color:#f1c40f ;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 4px 2px ;
+    
+}
+
+
+#features{
+    margin-top: 60px;
+}
+
+.flex{
+    display: flex;
+}
+
+
+.grid{
+    display: flex;
+    margin-top: 20px;
+    
+}
+
+
+.icons{
+
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+    height: 100px;
+    width: 20vw;
+    color: darkorange;
+}
+
+
+.desc{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    height: 125px;
+    width: 80vw;
+    padding: 5px;
+    line-height: 23px;
+    
+}
+
+h2{
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+#how-it-works{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    
+}
+
+#video{
+    width: 100%;
+    max-width: 700px;
+    
+}
+
+#pricing{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3);
+    margin: 20px;
+    border: 1px solid black;
+    
+}
+
+
+.title{
+    background-color: lightgray;
+    color: black;
+    padding: 20px 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 800px;
+
+}
+
+.product h2{
+    margin-top: 20px;
+    margin-bottom: 15px ;
+}
+
+.product ul li{
+    padding: 5px 0;
+    list-style-type:circle;
+}
+
+
+.btn{
+    margin: 15px 0;
+    padding: 10px;
+    border: none;
+    background-color:#f1c40f;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 600;
+    border-radius: 50%;
+}
+
+.btn:hover{
+    background-color: orange;
+}
+
+
+footer{
+    background-color:lightgray;
+    margin-top: 50px;
+    padding: 20px;
+   
+}
+
+
+footer ul{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+
+footer li{
+    padding: 0 15px;
+    list-style-type: none;
+}
+
+
+footer span{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+    font-size: 0.9em;
+    color: #444;
+
+}
+
+
+
+
+
+
+@media (max-width:991px){
+
+    html{
+        font-size: 100%;
+    }
+
+
+
+}
+
+
+
+@media (max-width:768px){
+    
+
+
+  .logo{
+    width: 93vw;
+  }
+
+
+    .menu-btn{
+      display: inline-block;
+      margin-right: 40px;
+
+        
+    }
+
+
+
+    .navbar{
+        position: absolute;
+        top:100%; right: -100%;
+        background: #fff;
+        width: 20rem;
+        height: calc(80vh - 9.5rem);
+    }
+
+    .navbar.active{
+        right:0;
+    }
+
+    .navbar ul{
+        font-size: 20px;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        margin-top: 70px;
+        margin-left: 20px;
+
+    }
+
+    .navbar li{
+        padding: 20px;
+    }
+
+    nav li{
+        list-style-type:disc;
+        margin-left: 20px;
+    
+    }
+
+    
+  ul:hover{
+    color: #f1c40f;
+  }
+
+
+  #header-img{
+    width: 100%;
+    height: 100%;
+    max-width: 200px;
+    display: flex;
+    justify-content:left;
+    
+
+}
+
+h2{
+    display: block;
+    font-size: 1.4em;
+    
+
+}
+
+
+#hero input[type="email"]{
+    width: 100%;
+    max-width: 200px;
+    margin-top: 10px;
+    padding: 5px;
+    color: black;
+   
+    
+
+}
+
+#hero input[type="submit"]{
+    width: 100%;
+    max-width: 120px;
+    margin-top: 10px;
+    background-color:#f1c40f ;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding:4px 4px;
+    
+}
+
+
+
+.flex{
+    display: inline-block;
+}
+
+
+.grid{
+    display: inline-block;
+   
+}
+
+
+.icons{
+
+   display: inline-block;
+   vertical-align:top ;
+   text-align: center;
+    width: 20vw;
+    color: darkorange;
+
+}
+
+
+
+.desc{
+    display: inline-block;
+    height: 125px;
+    width: 60vw;
+    padding: 5px;
+    line-height: 23px;
+}
+
+
+
+#video{
+    width: 100%;
+    max-width: 600px;
+    
+}
+
+
+
+#pricing{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(60% / 1);
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    
+}
+
+
+.product ul li{
+    list-style-type: none;
+}
+
+
+}
+
+
+
+
+@media (max-width:551px){
+
+
+.desc{
+    margin-top: 10px;
+}
+  
+
+}
+
+
+
+@media (max-width:488px){
+
+    .logo{
+        width: 88vw;
+      }
+
+
+
+    .desc{
+        margin-bottom: 50px;
+    }
+
+    .icons{
+        margin-top: 10px;
+    }
+   
+}
+
+
