@@ -1,0 +1,50 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+
+#container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+}
+
+
+#title{
+    color: black;
+    font-family: Georgia, serif;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    text-shadow: 2px 2px 30px black;    
+}
+
+#textbox{
+
+    font-family: georgia, serif;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 20px 40px;
+
+}
+
+
+
+
+#charCount{
+    font-family: georgia, serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
