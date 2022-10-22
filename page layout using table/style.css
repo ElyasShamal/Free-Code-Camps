@@ -1,0 +1,62 @@
+
+
+
+table{
+    margin-top: 20px;
+    border-collapse: collapse;
+    margin-bottom: 300px;
+}
+
+td{
+    max-height: 100%;
+    vertical-align: super;
+}
+
+
+
+h2{
+   text-align: center;
+}
+
+a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+    text-transform: capitalize;
+    border: 2px solid black;
+    background-color: orangered;
+    
+    
+
+
+}
+
+
+a:hover{
+   
+    transform: translatey(10px);
+   
+
+}
+
+h2{
+    text-align: center;
+    padding-top: 20px;
+   
+}
+
+p{
+  
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+ img{
+ padding-left: 300px;
+}
+
